@@ -1,0 +1,16 @@
+name: Prison
+version: '1.0'
+main: me.tox1que.prison.Prison
+api-version: '1.19'
+depend:
+  - JARVIS
+  - CMI
+  - Vault
+  - HeadDatabase
+commands:
+  test:
+    description: Testovací příkaz
+  prestige:
+    description: Příkaz na vylepšení prestiže
+  levelup:
+    description: Příkaz na zvýšení úrovně
